@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>dlsxjqb</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <section class="login-form">
+            <h1>login to dlsxjqb</h1>
+            <form ation="https://bongoo809.github.io/dlsxjqb/find-problem.html">
+                    <div class="int-area">
+                        <input type="next" name="id" id="dlsxjqb" autocomplate="off" required>
+                       <label for="id">User name</label>
+                    
+                    <div class="int-area">
+                        <input type="password" name="pw" pw="dlsxjqbtkfkdgo" autocomplate="off" required>
+                        <label for="pw">User name</label>
+                    </div>
+                    <div class="btn-area">
+                        <button id="btn" type="submit">login</button>
+                    </div>
+                    <div class="caption">
+                        <a href="">forgot password?</a>
+                    </div>
+            </form>
+        </section>
+
+        <script>
+            let id = $('#id')
+            let pw = $('#pw')
+            let btn = $('#btn')
+
+            $(btn).on('click', function() {
+                if($(id).val() == "dlsxjqb") {
+                    $(id).next('label').addClass('warning');
+                    setTimeout(function() {
+                        $('label').removeClass('warning')
+                    }, 1500);
+                }
+                else if ($(pw).val() == "dlsxjqbtkfkdgo") {
+                    $(pw).next('label').addClass('warning');
+                    setTimeout(function() {
+                        $('label').removeClass('warning')
+                    }, 1500);
+                }
+            });
+
+                if(submit = dlsxjqbtkfkdgo){
+                    onclick="alert('copy this https://bongoo809.github.io/dlsxjqb/find-problem.html link and paste link in the search engine')"
+                }
+            
+        </script>
+    </body>
+</html>
